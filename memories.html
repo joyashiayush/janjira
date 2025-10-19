@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="mr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>किल्ला बांधताना जपलेले क्षण</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #fdf6f0; /* हलका cream-brown background */
+      margin: 0;
+      padding: 20px;
+      color: #4b2e1e; /* dark brown text */
+    }
+
+    h1 {
+      text-align: center;
+      color: #7b4b2e; /* warm brown */
+      margin-bottom: 30px;
+      text-shadow: 1px 1px 2px #d1a17a;
+    }
+
+    .gallery {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 16px;
+      max-width: 1200px;
+      margin: 0 auto;
+    }
+
+    .photo {
+      position: relative;
+      overflow: hidden;
+      border-radius: 16px;
+      box-shadow: 0 4px 10px rgba(123, 75, 46, 0.4); /* brown shadow */
+      border: 2px solid #d1a17a; /* soft brown border */
+    }
+
+    .photo img {
+      width: 100%;
+      height: 200px;
+      object-fit: cover;
+      transition: transform 0.4s, filter 0.4s;
+      filter: brightness(0.95);
+    }
+
+    .photo:hover img {
+      transform: scale(1.05);
+      filter: brightness(1);
+    }
+
+    .caption {
+      position: absolute;
+      bottom: 0;
+      background: rgba(123, 75, 46, 0.7); /* semi-transparent brown */
+      color: #fff3e6;
+      width: 100%;
+      text-align: center;
+      padding: 8px;
+      font-size: 14px;
+      font-weight: bold;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>📸किल्ला बांधताना जपलेले क्षण</h1>
+
+  <div class="gallery">
+    <div class="photo">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/2/23/Murud_Janjira_Fort.jpg" alt="जांजिरा किल्ला 1">
+      <div class="caption">जांजिरा किल्ला दृश्य १</div>
+    </div>
+
+    <div class="photo">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/4/47/Janjira_Fort_Maharashtra_India.jpg" alt="जांजिरा किल्ला 2">
+      <div class="caption">जांजिरा किल्ला दृश्य २</div>
+    </div>
+
+    <div class="photo">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/8/87/Murud_Janjira_Fort_View.jpg" alt="जांजिरा किल्ला 3">
+      <div class="caption">सागरी किनाऱ्यावर किल्ला</div>
+    </div>
+
+    <div class="photo">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/9/93/Murud_Janjira_Fort_Main_Gate.jpg" alt="जांजिरा किल्ला 4">
+      <div class="caption">किल्ल्याचे मुख्य दरवाजे</div>
+    </div>
+
+    <div class="photo">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/d/d2/Murud_Janjira_Fort_Entrance.jpg" alt="जांजिरा किल्ला 5">
+      <div class="caption">प्रवेशद्वार दृश्य</div>
+    </div>
+
+    <div class="photo">
+      <img src="img1.jpg" alt=>
+      <div class="caption"></div>
+    </div>
+
+    <div class="photo">
+      <img src="img2.jpg" alt=>
+      <div class="caption"></div>
+    </div>
+
+    <div class="photo">
+      <img src="img3.jpg" alt=>
+      <div class="caption"></div>
+    </div>
+
+    <div class="photo">
+      <img src="img4.jpg" alt=>
+      <div class="caption"></div>
+    </div>
+
+    <div class="photo">
+      <img src="img5.jpg" alt=>
+      <div class="caption"></div>
+    </div>
+  </div>
+
+</body>
+</html>
